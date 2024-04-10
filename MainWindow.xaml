@@ -1,0 +1,19 @@
+﻿<Window x:Class="wpf_hw_one.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_hw_one"
+        mc:Ignorable="d"
+        Title="Флаг Азербайджана" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Background="#00b5e2" Grid.Row="0" Click="Button_Click"/>
+        <Button Background="#ef3340" Grid.Row="1" Content="☾✵" Foreground="White" FontSize="100" Click="Button_Click_1"/>
+        <Button Background="#509e2f" Grid.Row="2" Click="Button_Click_2"/>
+    </Grid>
+</Window>
